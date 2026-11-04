@@ -14,7 +14,6 @@ $apps = @(
     @{ id = "Python.Python.3.12";      name = "Python 3.12 (runs the toolkit scripts)" },
     @{ id = "Gyan.FFmpeg";             name = "FFmpeg (video engine used by everything)" },
     @{ id = "mifi.losslesscut";        name = "LosslessCut (instant trimming, no quality loss)" },
-    @{ id = "KDE.Kdenlive";            name = "Kdenlive (full free video editor)" },
     @{ id = "Upscayl.Upscayl";         name = "Upscayl (AI image upscaler for thumbnails)" },
     @{ id = "OBSProject.OBSStudio";    name = "OBS Studio (screen / voice recording)" },
     @{ id = "Ollama.Ollama";           name = "Ollama (free AI writer that runs on your PC)" }

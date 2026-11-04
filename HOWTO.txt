@@ -34,5 +34,6 @@ FREE LOCAL AI WRITER (no Claude/ChatGPT limits - needs the Ollama app open)
 DOWNLOAD (your own videos / client files / footage you have rights to)
   yt-dlp "VIDEO_URL"
 
-APPS (in your Start menu): LosslessCut, Kdenlive, Upscayl, OBS Studio, Ollama
+APPS (in your Start menu): LosslessCut, Upscayl, OBS Studio, Ollama
+MORE TOOLS WORTH GETTING: see BEST-TOOLS.md
 ==========================================================================

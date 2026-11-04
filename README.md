@@ -8,7 +8,6 @@ The installer only uses official installers (winget on Windows, Homebrew on Mac)
 
 | What you get | Tool | ⭐ on GitHub |
 |---|---|---|
-| Full video editor | [Kdenlive](https://github.com/KDE/kdenlive) | 6k |
 | Instant trimming/cutting with no quality loss | [LosslessCut](https://github.com/mifi/lossless-cut) | 46k |
 | Auto-removes silences and dead air, can export to a Premiere/Resolve/FCP timeline | [auto-editor](https://github.com/WyattBlue/auto-editor) | 6k |
 | Offline AI captions, word-by-word highlight | [faster-whisper](https://github.com/SYSTRAN/faster-whisper) + `scripts/captions.py` | 26k |
@@ -19,11 +18,7 @@ The installer only uses official installers (winget on Windows, Homebrew on Mac)
 | Video downloader (for your own or client files) | [yt-dlp](https://github.com/yt-dlp/yt-dlp) | 205k |
 | The engine behind everything | FFmpeg | — |
 
-🎞️ **More free editing tools (CapCut alternative, audio cleanup, upscaling, background removal…): [EDITING-TOOLS.md](EDITING-TOOLS.md)**
-
-✨ **Motion graphics tools (After Effects add-ons, Blender, code-based animation with AI): [MOTION-GRAPHICS.md](MOTION-GRAPHICS.md)**
-
-🎙️ **AI voices, voice cloning, sound effects and music: [AUDIO-TOOLS.md](AUDIO-TOOLS.md)**
+🧰 **The short list of extra tools worth installing (motion graphics, voice, sound): [BEST-TOOLS.md](BEST-TOOLS.md)**
 
 📈 **New to growing a channel? Read [GROWTH-PLAYBOOK.md](GROWTH-PLAYBOOK.md) first.** It covers niche, hooks,
 script formula, editing for retention, posting, a 30-day plan, and turning followers into editing clients.
@@ -95,13 +90,6 @@ If you edit in **DaVinci Resolve**, also look at [AutoSubs](https://github.com/t
 - **Don't use follower/like/view "booster" bots or tools.** They break YouTube and Instagram rules, get channels banned, and many are malware.
 - **Copyright:** only use footage and music you have rights to (Pexels, Pixabay, YouTube Audio Library, your client's files).
 - **YouTube monetisation:** "faceless" is fine, but low-effort, mass-produced repetitive content can be demonetised. Add a real angle and a script with value.
-
-## 5. Bigger optional tools
-
-These are larger apps with their own setup guides, if you want more automation later:
-- [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) (138k ⭐) is an all-in-one web app for faceless shorts. It works with free Ollama or Gemini instead of paid AI.
-- [ShortGPT](https://github.com/RayVentura/ShortGPT) (8k ⭐) is a framework for automating Shorts channels.
-- [Remotion](https://github.com/remotion-dev/remotion) (71k ⭐) makes videos with code, for templated content.
 
 ## Troubleshooting
 

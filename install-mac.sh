@@ -11,7 +11,7 @@ if ! command -v brew >/dev/null 2>&1; then
 fi
 
 brew install python@3.12 ffmpeg
-for app in losslesscut kdenlive upscayl obs ollama; do
+for app in losslesscut upscayl obs ollama; do
   brew install --cask "$app" || echo "Skipped $app (already installed?)"
 done
 
