@@ -1,0 +1,36 @@
+=================== CREATOR TOOLKIT - QUICK COMMANDS ===================
+(Tip: drag a file onto this window to paste its full path.)
+
+FACELESS VIDEO (script + clips folder -> finished Short with voice + captions)
+  python scripts\ideas.py script "your topic" -o script.txt
+  python scripts\faceless_short.py --script script.txt --clips clips --music music.mp3
+  (add --horizontal for a 16:9 long-form video)
+
+CAPTIONS (word-by-word highlighted, + .srt file)
+  python scripts\captions.py video.mp4
+  python scripts\captions.py video.mp4 --no-burn          (only the .srt)
+
+AI VOICEOVER (free)
+  python scripts\voiceover.py script.txt --voice en-US-AndrewNeural
+  python scripts\voiceover.py --list en                   (see all voices)
+
+REMOVE SILENCES / DEAD AIR (talking-head, podcasts, client raw footage)
+  auto-editor video.mp4
+  auto-editor video.mp4 --export premiere                 (timeline for Premiere)
+  auto-editor video.mp4 --export resolve                  (timeline for DaVinci Resolve)
+  auto-editor video.mp4 --export final-cut-pro
+
+MAKE A VERTICAL SHORT / REEL FROM A HORIZONTAL VIDEO
+  python scripts\vertical.py video.mp4 --start 1:20 --end 2:05
+
+FREE LOCAL AI WRITER (no Claude/ChatGPT limits - needs the Ollama app open)
+  python scripts\ideas.py ideas  "your niche"
+  python scripts\ideas.py seo    "your video topic"
+  python scripts\ideas.py hooks  "your video topic"
+  python scripts\ideas.py client "what the client asked for"
+
+DOWNLOAD (your own videos / client files / footage you have rights to)
+  yt-dlp "VIDEO_URL"
+
+APPS (in your Start menu): LosslessCut, Kdenlive, Upscayl, OBS Studio, Ollama
+==========================================================================
