@@ -21,6 +21,8 @@ The installer only uses official installers (winget on Windows, Homebrew on Mac)
 
 🎞️ **More free editing tools (CapCut alternative, audio cleanup, upscaling, background removal…): [EDITING-TOOLS.md](EDITING-TOOLS.md)**
 
+✨ **Motion graphics tools (After Effects add-ons, Blender, code-based animation with AI): [MOTION-GRAPHICS.md](MOTION-GRAPHICS.md)**
+
 📈 **New to growing a channel? Read [GROWTH-PLAYBOOK.md](GROWTH-PLAYBOOK.md) first.** It covers niche, hooks,
 script formula, editing for retention, posting, a 30-day plan, and turning followers into editing clients.
 
