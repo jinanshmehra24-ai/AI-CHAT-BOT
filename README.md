@@ -19,6 +19,8 @@ The installer only uses official installers (winget on Windows, Homebrew on Mac)
 | Video downloader (for your own or client files) | [yt-dlp](https://github.com/yt-dlp/yt-dlp) | 205k |
 | The engine behind everything | FFmpeg | — |
 
+🎞️ **More free editing tools (CapCut alternative, audio cleanup, upscaling, background removal…): [EDITING-TOOLS.md](EDITING-TOOLS.md)**
+
 📈 **New to growing a channel? Read [GROWTH-PLAYBOOK.md](GROWTH-PLAYBOOK.md) first.** It covers niche, hooks,
 script formula, editing for retention, posting, a 30-day plan, and turning followers into editing clients.
 
