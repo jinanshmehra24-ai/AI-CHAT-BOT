@@ -23,6 +23,8 @@ The installer only uses official installers (winget on Windows, Homebrew on Mac)
 
 ✨ **Motion graphics tools (After Effects add-ons, Blender, code-based animation with AI): [MOTION-GRAPHICS.md](MOTION-GRAPHICS.md)**
 
+🎙️ **AI voices, voice cloning, sound effects and music: [AUDIO-TOOLS.md](AUDIO-TOOLS.md)**
+
 📈 **New to growing a channel? Read [GROWTH-PLAYBOOK.md](GROWTH-PLAYBOOK.md) first.** It covers niche, hooks,
 script formula, editing for retention, posting, a 30-day plan, and turning followers into editing clients.
 
