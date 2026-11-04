@@ -10,6 +10,8 @@ Examples:
   python scripts/ideas.py seo    "Why the Moon is drifting away"   -> titles, description, tags, hashtags
   python scripts/ideas.py hooks  "Why the Moon is drifting away"   -> 10 scroll-stopping first lines
   python scripts/ideas.py client "cut a 60s highlight from a 20 min podcast about fitness"  -> edit plan
+  python scripts/ideas.py calendar "space facts"                -> 30-day posting plan
+  python scripts/ideas.py insta  "Why the Moon is drifting away"   -> Instagram caption + cover text
 Add  -o file.txt  to save the answer (e.g. save a script, then feed it to faceless_short.py).
 """
 import argparse
@@ -34,6 +36,14 @@ PROMPTS = {
     "hooks": ("Write 10 different opening lines (max 12 words each) for a short video about: {topic}. Each must "
               "stop someone from scrolling in the first 2 seconds. Mix styles: question, shocking fact, "
               "'you've been lied to', countdown, bold claim. Number them."),
+    "calendar": ("Make a 30-day posting calendar for a brand-new YouTube Shorts + Instagram Reels channel in this "
+                 "niche: {topic}. One video per day. For each day: the video title, the hook (first line), and the "
+                 "format (fact, story, list, myth-buster, before/after, series part). Group them into 2-3 recurring "
+                 "series so people follow for the next part. Output as a numbered list Day 1 to Day 30."),
+    "insta": ("Write an Instagram Reel caption for a video about: {topic}. First line is a hook under 10 words "
+              "(it is all people see before 'more'). Then 2 short lines of value, then a question that makes people "
+              "comment, then a line asking them to save or send it to a friend, then 4 relevant hashtags. "
+              "Also give a 5-word text for the Reel cover image."),
     "client": ("I am a freelance video editor. Client request: {topic}. Give me a clear edit plan: structure with "
                "timestamps to aim for, where to cut, pacing, captions style, b-roll/zoom/sound-effect ideas, "
                "music mood, aspect ratios to export, and a short checklist before delivery."),

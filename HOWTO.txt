@@ -28,6 +28,8 @@ FREE LOCAL AI WRITER (no Claude/ChatGPT limits - needs the Ollama app open)
   python scripts\ideas.py seo    "your video topic"
   python scripts\ideas.py hooks  "your video topic"
   python scripts\ideas.py client "what the client asked for"
+  python scripts\ideas.py calendar "your niche"            (30-day posting plan)
+  python scripts\ideas.py insta  "your video topic"        (Instagram caption + cover text)
 
 DOWNLOAD (your own videos / client files / footage you have rights to)
   yt-dlp "VIDEO_URL"

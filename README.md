@@ -19,6 +19,9 @@ The installer only uses official installers (winget on Windows, Homebrew on Mac)
 | Video downloader (for your own or client files) | [yt-dlp](https://github.com/yt-dlp/yt-dlp) | 205k |
 | The engine behind everything | FFmpeg | — |
 
+📈 **New to growing a channel? Read [GROWTH-PLAYBOOK.md](GROWTH-PLAYBOOK.md) first.** It covers niche, hooks,
+script formula, editing for retention, posting, a 30-day plan, and turning followers into editing clients.
+
 ---
 
 ## 1. Install (one time)
